@@ -1,0 +1,148 @@
+#apps{
+    width: 90%;
+    margin: auto;
+    height: 323px;
+    background: linear-gradient(90.28deg, #001C80 0.26%, #153ABF 30.33%, #2B59FF 99.79%);
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#apps .app-shapes{
+    position: absolute;
+    right: 0;
+}
+#apps h3{
+    font-size: 3rem;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin:3rem 1rem 1rem 6rem;
+}
+.apps-footer{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 6rem;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+}
+.apps-footer p{
+    width: 416px;
+    height: 52px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+    text-align: start;
+}
+.apps-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.apps-footer .app-store{
+    width: 196px;
+    height: 62px;
+    border-radius: 10px;
+
+}
+.apps-footer .google-play{
+    width: 196px;
+    height: 62px;
+    border-radius: 10px;
+}
+@media(min-width:0px) and (max-width:480px){
+    #apps{
+        width: 100%;
+        position: relative;
+    }
+    #apps .app-shapes{
+        position: absolute;
+        width: 700px;
+        right: 0;
+    }
+    #apps h3{
+        font-size: 1.5rem;
+        width:auto;
+        margin:1rem 5rem;
+    }
+    .apps-footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .apps-footer p{
+        position: absolute;
+        font-size: 0.8rem;
+        left: 5rem;
+        top: 7rem;
+    }
+    .apps-button{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 60px;
+        top: 170px;
+    }
+    .apps-button .app-store img{
+        width: 100px;
+        height: 31px;
+
+    }
+    .apps-button .google-play img{
+        width: 100px;
+        height: 31px;
+
+    }
+}
+@media(min-width:481px) and (max-width:820px){
+    #apps{
+        width: 100%;
+        position: relative;
+    }
+    #apps .app-shapes{
+        position: absolute;
+        width: 700px;
+        right: 0;
+    }
+    #apps h3{
+        font-size: 1.5rem;
+        width:auto;
+        margin:1rem 5rem;
+    }
+    .apps-footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .apps-footer p{
+        position: absolute;
+        font-size: 0.8rem;
+        left: 5rem;
+        top: 7rem;
+    }
+    .apps-button{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 60px;
+        top: 170px;
+    }
+    .apps-button .app-store img{
+        width: 100px;
+        height: 31px;
+
+    }
+    .apps-button .google-play img{
+        width: 100px;
+        height: 31px;
+
+    }
+}
+

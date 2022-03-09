@@ -1,0 +1,121 @@
+#nav{
+    width: 90%;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.nav-bar{
+    width: 1600px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo img{
+    width: 108px;
+    height: 30.07px;    
+}
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item .items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+.nav-item li{
+    color: white;
+    list-style: none;
+    font-size: 1rem;
+}
+.nav-login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-login .login{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+}
+.nav-login .signup{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 53px;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+@media(min-width:0px) and (max-width:480px){
+    #nav{
+        margin-bottom: 4rem ;
+        margin-top: 3rem;
+    }
+    .nav-bar{
+        width: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+
+    }
+    .nav-item .items{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+    .nav-logo img{
+        margin-bottom: 1rem;
+        align-self: center;
+    }
+    
+}
+@media(min-width:481px) and (max-width:820px){
+    #nav{
+        margin-bottom: 4rem ;
+        margin-top: 3rem;
+    }
+    .nav-bar{
+        width: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+
+    }
+    .nav-item .items{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+    .nav-logo img{
+        margin-bottom: 1rem;
+        align-self: center;
+    }
+    
+}
