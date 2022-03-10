@@ -43,7 +43,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 6rem;
 }
 .price-cards .card{
     width: 280px;
@@ -62,10 +62,7 @@
 }
 .price-cards .card:hover{
     border: 3px solid;
-    border-image-source: linear-gradient
-    (90.28deg, #001C80 0.26%, #153ABF 30.33%, #2B59FF 99.79%);
-
-
+    border-image-source: linear-gradient(90.28deg, #001C80 0.26%, #153ABF 30.33%, #2B59FF 99.79%);
 }
 .card h6{
     font-size: 1rem;
