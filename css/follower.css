@@ -5,15 +5,16 @@
     padding: auto;
     margin: 0 auto;
     position: relative;
-    display: flex;
-    align-items: center;
 }
 #follower ul{
+    width: 85%;
+    margin: auto;
+    padding: auto;
     display: flex;  
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 9rem;
+    gap: 5rem;
 }
 #follower li{
     display: flex;
@@ -28,14 +29,14 @@
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    gap: 0.5rem;
+    gap: 0.2rem;
 }
 #follower li  img {
     margin: 0;
     width: 100px;
 }
 #follower li div h5{
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: start;
 }
 #follower li div p{
@@ -45,7 +46,7 @@
     text-align: start;
     
 }
-@media(min-width:0px) and (max-width:480px){
+/* @media(min-width:0px) and (max-width:480px){
     #follower{
         width: 100%;
         height: auto;
@@ -82,5 +83,5 @@
         gap: 1rem;
     }
 
-}
+} */
 

@@ -20,7 +20,7 @@
     justify-content: flex-start;
     margin-top: 40px; 
     position: absolute;
-    left: 60px;
+    left: 100px;
     top: 0px;
     color: black;
 }
@@ -61,7 +61,7 @@
     height: 100px;
     position: absolute;
     top: 250px;
-    right: 495px;
+    right: 490px;
 }
 .feature-text_info ul{
     display: flex;
@@ -109,7 +109,7 @@
     z-index: -3;
 
 }
-@media(min-width:0px) and (max-width:480px){
+/* @media(min-width:0px) and (max-width:480px){
     #feature{
         width: 100%;
         height: 450px;
@@ -381,4 +381,4 @@
 
     }
 }
-
+ */

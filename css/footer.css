@@ -103,7 +103,7 @@
     margin: 1rem 0 2rem 0;
     color: rgba(0, 11, 51, 0.9);
 }
-@media(min-width:0px) and (max-width:480px){
+/* @media(min-width:0px) and (max-width:480px){
     #footer{
         width: 100%;
         height: auto;
@@ -136,4 +136,4 @@
         gap: 1rem;
     }
     
-}
+} */
